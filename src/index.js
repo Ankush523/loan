@@ -46,9 +46,9 @@ root.render(
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
         <Navbar />
+        <App />
       </RainbowKitProvider>
     </WagmiConfig>
-    <App />
   </React.StrictMode>
 );
 
